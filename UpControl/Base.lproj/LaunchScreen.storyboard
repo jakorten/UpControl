@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="qQA-wT-3pr">
+                                <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="V1.0 June 2018" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fML-us-wbb">
+                                <rect key="frame" x="307" y="49" width="137" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Up Control Pro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngP-wR-ML4">
+                                <rect key="frame" x="307" y="20" width="135" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JKSOFT Educational" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="er9-Op-ciq">
+                                <rect key="frame" x="307" y="108" width="156" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="er9-Op-ciq" firstAttribute="top" secondItem="fML-us-wbb" secondAttribute="bottom" constant="38" id="3ie-Zt-xIt"/>
+                            <constraint firstItem="fML-us-wbb" firstAttribute="leading" secondItem="er9-Op-ciq" secondAttribute="leading" id="6bP-vd-rOa"/>
+                            <constraint firstItem="qQA-wT-3pr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="NDT-bs-T4J"/>
+                            <constraint firstAttribute="bottom" secondItem="qQA-wT-3pr" secondAttribute="bottom" id="UE4-uQ-wxb"/>
+                            <constraint firstItem="fML-us-wbb" firstAttribute="top" secondItem="ngP-wR-ML4" secondAttribute="bottom" constant="8" symbolic="YES" id="VX8-vn-j2P"/>
+                            <constraint firstItem="qQA-wT-3pr" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="e7O-BD-rQ7"/>
+                            <constraint firstItem="ngP-wR-ML4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="iiL-s4-St1"/>
+                            <constraint firstItem="ngP-wR-ML4" firstAttribute="leading" secondItem="fML-us-wbb" secondAttribute="leading" id="rnY-C3-z7V"/>
+                            <constraint firstAttribute="trailing" secondItem="qQA-wT-3pr" secondAttribute="trailing" id="roy-8M-68g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="er9-Op-ciq" secondAttribute="trailing" constant="305" id="xdQ-iw-9ZP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.724137931034484" y="373.60000000000002"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Splash" width="1024" height="768"/>
+    </resources>
+</document>

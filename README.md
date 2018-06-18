@@ -1,5 +1,5 @@
 # UpControl
-Swift app for LEGO Powered Up to control new LEGO trains.
+Swift app for iOS 11 that uses LEGO Powered Up to control new (2018) LEGO trains.
 This app is meant for controlling LEGO Powered Up Trains and other vehicles / buildings / whatever.
 
 ## License
